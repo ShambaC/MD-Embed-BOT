@@ -8,7 +8,8 @@ module.exports = (client, message) => {
 
     if (message.content.indexOf(prefix) !== 0)
     {
-        const words = message.content.split(' ');
+        var words = message.content.replace(/\n/g, ' ');
+        words = words.split(' ');
         let reg = new RegExp('https://mangadex.org/');
         const matchindex = words.findIndex(value => reg.test(value));
         if( matchindex == -1)
