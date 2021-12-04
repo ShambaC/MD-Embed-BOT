@@ -16,7 +16,7 @@ module.exports = {
         
 
         embed.setDescription('This BOT is open source and is hosted with heroku');
-        embed.addField('Source code', '[Github]()', true);
+        embed.addField('Source code', '[Github](https://github.com/ShambaC/MD-Embed-BOT)', true);
         embed.addField('Invite', '[Invite the bot here](invite link here)', true);
 
         embed.setTimestamp();

@@ -3,7 +3,7 @@
   "main": "main.js",
   "author": "ShambaC",
   "version": "1.0.0",
-  "repository": " ",
+  "repository": "https://github.com/ShambaC/MD-Embed-BOT.git",
   "description": "A complete code to download for a cool Discord bot for MD links.",
   "scripts": {
     "start": "node main.js"
